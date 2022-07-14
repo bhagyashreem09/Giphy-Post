@@ -68,19 +68,24 @@ function App() {
   ));
 
   return (
-    <div className={classes.App}>
-      {!showPostBox && (
-        <Button
-          className={classes.createPostButton}
-          onClick={postModalHandler}
-          variant="primary"
-        >
-          Create Post
-        </Button>
-      )}
-      {showPostBox && <CreatePost />}
+    <div>
+      <div className={classes.header}>
+        <div className={classes.appName}>Giphy Post</div>
+      </div>
+      <div className={classes.App}>
+        {!showPostBox && (
+          <Button
+            className={classes.createPostButton}
+            onClick={postModalHandler}
+            variant="primary"
+          >
+            Create Post
+          </Button>
+        )}
+        {showPostBox && <CreatePost />}
 
-      {postList}
+        {postList}
+      </div>
     </div>
   );
 }
