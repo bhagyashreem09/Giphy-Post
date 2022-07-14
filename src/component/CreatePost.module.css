@@ -1,0 +1,90 @@
+.card {
+  width: 40%;
+  height: fit-content;
+  border-color: black;
+  border-width: 5px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 699px) {
+  .card {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  .card {
+    width: 80%;
+  }
+}
+
+/* @media screen and (min-width: 1920px) {
+  .card {
+    width: 40rem;
+  }
+} */
+
+.gifDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: large;
+  margin-bottom: 15px;
+  color: darkslategrey;
+}
+
+.textBox {
+  border-radius: 10px;
+  width: 100%;
+  border-color: white;
+  white-space: pre-wrap;
+  font-size: x-large;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+.gifModal {
+  position: "fixed";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  margin-top: 10px;
+  /* margin-right: 10px; */
+}
+
+.gifButton {
+  border-radius: 10px;
+  border-width: 0px;
+  width: 10rem;
+  height: 2rem;
+  /* margin-left: auto; */
+}
+
+.postButton {
+  border-radius: 10px;
+  border-width: 0px;
+  width: 10rem;
+  height: 2rem;
+  background-color: #2054c3;
+  color: white;
+  margin-left: auto;
+}

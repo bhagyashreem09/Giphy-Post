@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 30rem;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 699px) {
+  .card {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000) {
+  .card {
+    width: 100%;
+  }
+}
+
+/* @media screen and (min-width: 1920px) {
+  .gifCard {
+    width: 30rem;
+  }
+} */
+
+.timeStamp {
+  font-size: small;
+  font-weight: 600;
+  padding-bottom: 10px;
+  color: rgba(49, 76, 76, 0.778);
+}
+
+.message {
+  font-size: x-large;
+  font-weight: 350;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,51 @@
+.gifCard {
+  width: 20rem;
+  height: 25rem;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  border-color: black;
+  border-width: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.gifCard::-webkit-scrollbar {
+  display: none; /* Edge and Chrome */
+}
+
+@media screen and (min-width: 280px) and (max-width: 359px) {
+  .gifCard {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 699px) {
+  .gifCard {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000) {
+  .gifCard {
+    width: 80%;
+  }
+}
+
+/* @media screen and (min-width: 1920px) {
+  .gifCard {
+    width: 20rem;
+  }
+} */
+
+.gifs {
+  padding: 50px;
+}
+
+.searchGif {
+  width: 87%;
+  padding: 6px;
+  margin: 10px;
+}
