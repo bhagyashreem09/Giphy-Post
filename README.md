@@ -19,7 +19,7 @@ GiphyPost is a ReactJS App where user can post and view GIFs along with messages
 
 ## Run on your device
 ```
-git clone
+git clone <HTTPS link>
 npm install
 npm start
 ```
