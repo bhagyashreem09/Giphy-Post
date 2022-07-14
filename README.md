@@ -1,8 +1,8 @@
 # Overview
 GiphyPost is a ReactJS App where user can post and view GIFs along with messages.
-Bootstrap is as the CSS framework.
-App Preview Link :  https://youtu.be/z4CjqIo5uOg
-Hosted on Vercel : https://giphy-post.vercel.app/
+- Bootstrap is used as the CSS library.
+- App Preview Link :  https://youtu.be/z4CjqIo5uOg
+- Hosted on Vercel : https://giphy-post.vercel.app/
 
 ## Libraries 
 
